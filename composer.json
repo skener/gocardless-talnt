@@ -1,0 +1,24 @@
+{
+    "name": "omnipay/gocardless-talnt",
+    "type": "library",
+    "keywords": [
+        "gateway",
+        "go cardless",
+        "gocardless"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "Omnipay\\GoCardless\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common-talnt": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-master"
+        }
+    }
+}
